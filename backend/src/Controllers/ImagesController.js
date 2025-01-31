@@ -2,7 +2,7 @@ import multer from "multer";
 import multerConfig from "../config/multerconfig";
 import Image from "../Models/Image";
 import { where } from "sequelize";
-import { up } from "../migrations/20250130003138-foto-produtos";
+
 
 const upload = multer(multerConfig).single("arquivo");
 
@@ -23,15 +23,18 @@ class ImagesController {
       }
       try {
         const { originalname, filename } = req.file;
-        const { flag } = req.body;
-        const { id } = req.params;
-        const flagValue = flag === "true";
+        const { id,  flag } = req.body;
         const id_produto = Number(id);
         if (!id) {
           return res.status(400).json("faltou o id na req");
         }
+        if(flag !== "true" || flag !== "false"){
+          return res.status(400).json({
+              mensagem: "Flag só permite string "true" e "false"
+          )};
+        }
 
-        if (flagValue === true) {
+        if (flag === true) {
           const findImages = await Image.findAll({
             where: {
               id_produto: id_produto,
@@ -41,18 +44,15 @@ class ImagesController {
             return res.status(400).json({
               mensagem: "não podermos ter mais de 3 imagens por produto",
             });
-          }
-          console.log("passou no up");
-          const updateFlag = await Image.update(
+            const updateFlag = await Image.update(
             { flag: "false" },
             { where: { id_produto: id_produto } }
           );
         }
-        console.log("chegou no insert");
         const createImage = await Image.create({
           originalname,
           filename,
-          flag: flagValue ? "true" : "false",
+          flag,
           id_produto,
         });
 
