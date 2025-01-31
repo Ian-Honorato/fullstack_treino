@@ -1,0 +1,10 @@
+## informações ##
+
+Na pasta model os modelos devem inciar com a primeira letra maiuscula e no singular,
+pois modelo é uma representação de uma tabela no banco de dados, onde cada campo definido no modelo corresponde a uma coluna da tabela.
+
+    1 - Importar o sequelize e seu model - import sequelize { model} from ...
+    2- criar a classe do modelo e extend do model do sequelize, significa que o Sequelize gerencia automaticamente as operações de banco de dados
+    3 - iniciar a classe com o .init()
+    4 - passar as propriedades do modelo e sua estrutura de dados
+    5 - exportar a classe.

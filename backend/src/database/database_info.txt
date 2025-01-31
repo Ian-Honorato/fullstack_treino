@@ -1,0 +1,19 @@
+## Informação ##
+
+para criar o banco de dados da aplicação foi necessario,
+
+1 - Instalar o dotenv, sequelize,o sequelize-cli e mariadb
+2 - Criar o documento .sequelizerc
+(config banco, migration e models, direcionando pras respectivas pastas)
+3 - configurar o arquivo .dotenv 
+(informações do banco - informações sensiveis)
+4 - criar as migrações (npx sequelize migration:create --name=nomeMigration)
+5 - no arquivo criado pelo sequelize, criamos a tabela, configurando as entidades
+6 - criamos o model da entidade e ligamos ao sequelize extendendo o Model importado dele.
+7 - importante - Os dados do model devem ser os memos da migração inclusive a estrutura de dados
+8 - importar as configurações e o model no (index.js), a conecção com o sequelize e os Models.
+9 - realização da migrate (npx sequelize db:migrate)
+10 - criamos a rota no index da homeController para testar o insert 
+-----
+ npm run dev - subir o servidor express para teste no insomia
+-----
