@@ -41,6 +41,7 @@ export default class Image extends Model {
       },
       {
         sequelize,
+        tableName: 'images'
       }
     );
     return this;
