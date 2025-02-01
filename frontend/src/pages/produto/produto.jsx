@@ -6,6 +6,8 @@ const Produto = () => {
   const location = useLocation(); //use location para pegar o que vio no state
   const produto = location.state?.produto; // melhorar a verificação do state
   const navigate = useNavigate();
+
+  console.log(produto);
   return (
     <>
       <Navbar />
