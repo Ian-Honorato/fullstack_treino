@@ -10,6 +10,9 @@ import imageRoutes from "./src/routes/imageRoutes";
 // CORS
 import cors from "cors";
 
+//RESOLVE
+import { resolve } from "path";
+
 class App {
   constructor() {
     this.app = express();
@@ -28,6 +31,7 @@ class App {
     );
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(express.json());
+    this.app.use(express.static(resolve(__dirname, "upload")));
   }
 
   routes() {

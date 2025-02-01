@@ -1,8 +1,8 @@
 import multer from "multer";
 import multerConfig from "../config/multerconfig";
 import Image from "../Models/Image";
+import Produto from "../Models/Produto";
 import { where } from "sequelize";
-
 
 const upload = multer(multerConfig).single("arquivo");
 
@@ -23,39 +23,44 @@ class ImagesController {
       }
       try {
         const { originalname, filename } = req.file;
-        const { id,  flag } = req.body;
+        const { id, ativo } = req.body;
         const id_produto = Number(id);
+        const flag = String(ativo);
+        //verificações que dos dados vindos da req
         if (!id) {
           return res.status(400).json("faltou o id na req");
         }
-        if(flag !== "true" || flag !== "false"){
+        const produto = await Produto.findByPk(id_produto);
+        if (!produto) {
+          return res.status(400).json({ mensagem: "Produto não encontrado." });
+        }
+        if (flag !== "true" && flag !== "false") {
           return res.status(400).json({
-              mensagem: "Flag só permite string "true" e "false"
-          )};
+            mensagem: "Flag só permite string true e false",
+          });
         }
 
-        if (flag === true) {
-          const findImages = await Image.findAll({
-            where: {
-              id_produto: id_produto,
-            },
-          });
-          if (findImages.length > 3) {
-            return res.status(400).json({
-              mensagem: "não podermos ter mais de 3 imagens por produto",
-            });
-            const updateFlag = await Image.update(
+        if (flag === "true") {
+          await Image.update(
             { flag: "false" },
             { where: { id_produto: id_produto } }
           );
         }
+
         const createImage = await Image.create({
           originalname,
           filename,
           flag,
           id_produto,
         });
-
+        if (createImage) {
+          return res.status(200).json({
+            mensagem: "Imagem inserida com sucesso",
+            originalname,
+            flag,
+            id_produto,
+          });
+        }
         return res.status(200).json({
           mensagem: "Imagem inserida com sucesso",
         });
@@ -63,10 +68,11 @@ class ImagesController {
         console.log(e);
 
         return res.status(400).json({
-          mensagem: "Ocorreu um erro ao realizar o upload - 2",
+          mensagem: "Ocorreu um erro ao realizar o upload ",
         });
       }
     });
   }
 }
+
 export default new ImagesController();

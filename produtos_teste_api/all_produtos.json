@@ -1,0 +1,730 @@
+{
+    "id": 1,
+    "nome": "Picanha Bovino",
+    "marca": "Friboi",
+    "categoria": "Açougue",
+    "descricao": "Corte especial de picanha bovina.",
+    "imagem": "../../assets/images/produtos/picanha.jfif",
+    "preco": "89.90",
+    "promocao": true
+  },
+  {
+    "id": 2,
+    "nome": "Costela Suína",
+    "marca": "Seara",
+    "categoria": "Açougue",
+    "descricao": "Costela suína temperada.",
+    "imagem": "../../assets/images/produtos/costela.jfif",
+    "preco": "42.50",
+    "promocao": false
+  },
+  {
+    "id": 3,
+    "nome": "Frango Inteiro",
+    "marca": "Sadia",
+    "categoria": "Açougue",
+    "descricao": "Frango inteiro congelado.",
+    "imagem": "../../assets/images/produtos/frango.jfif",
+    "preco": "24.90",
+    "promocao": false
+  },
+  {
+    "id": 4,
+    "nome": "Linguiça Toscana",
+    "marca": "Aurora",
+    "categoria": "Açougue",
+    "descricao": "Linguiça de porco sabor toscano.",
+    "imagem": "../../assets/images/produtos/linguica.jfif",
+    "preco": "18.90",
+    "promocao": false
+  },
+  {
+    "id": 5,
+    "nome": "Carne Moída",
+    "marca": "Friboi",
+    "categoria": "Açougue",
+    "descricao": "Carne moída de primeira qualidade.",
+    "imagem": "../../assets/images/produtos/carne_moida.jfif",
+    "preco": "29.90",
+    "promocao": false
+  },
+  {
+    "id": 6,
+    "nome": "Bisteca Suína",
+    "marca": "Seara",
+    "categoria": "Açougue",
+    "descricao": "Bisteca suína fresca.",
+    "imagem":"../../assets/images/produtos/bisteca.jfif",
+    "preco": "22.90",
+    "promocao": false
+  },
+  {
+    "id": 7,
+    "nome": "Maçã Gala",
+    "marca": "N/A",
+    "categoria": "Hort-fruit",
+    "descricao": "Maçã gala fresca - KG.",
+    "imagem": "../../assets/images/produtos/maca_gala.jfif",
+    "preco": "4.90",
+    "promocao": false
+  },
+  {
+    "id": 8,
+    "nome": "Banana Prata",
+    "marca": "N/A",
+    "categoria": "Hort-fruit",
+    "descricao": "Banana prata de alta qualidade.",
+    "imagem": "../../assets/images/produtos/bana_prata.jfif",
+    "preco": "3.50",
+    "promocao": false
+  },
+  {
+    "id": 9,
+    "nome": "Alface Crespa",
+    "marca": "N/A",
+    "categoria": "Hort-fruit",
+    "descricao": "Alface crespa orgânica.",
+    "imagem": "../../assets/images/produtos/alface.jfif",
+    "preco": "2.90",
+    "promocao": false
+  },
+  {
+    "id": 10,
+    "nome": "Tomate Italiano",
+    "marca": "N/A",
+    "categoria": "Hort-fruit",
+    "descricao": "Tomate italiano fresco.",
+    "imagem": "../../assets/images/produtos/tomate.jfif",
+    "preco": "5.90",
+    "promocao": false
+  },
+  {
+    "id": 11,
+    "nome": "Cenoura",
+    "marca": "N/A",
+    "categoria": "Hort-fruit",
+    "descricao": "Cenoura fresca orgânica.",
+    "imagem": "../../assets/images/produtos/cenoura.jfif",
+    "preco": "4.30",
+    "promocao": false
+  },
+  {
+    "id": 12,
+    "nome": "Batata Inglesa",
+    "marca": "N/A",
+    "categoria": "Hort-fruit",
+    "descricao": "Batata inglesa fresca.",
+    "imagem": "../../assets/images/produtos/batata.jfif",
+    "preco": "3.90",
+    "promocao": true
+  },
+  // Grãos e Cereais
+  {
+    "id": 13,
+    "nome": "Arroz Branco",
+    "marca": "Tio João",
+    "categoria": "Grãos e Cereais",
+    "descricao": "Arroz branco tipo 1.",
+    "imagem": "../../assets/images/produtos/arroz.jfif",
+    "preco": "25.90",
+    "promocao": false
+  },
+  {
+    "id": 14,
+    "nome": "Feijão Carioca",
+    "marca": "Camil",
+    "categoria": "Grãos e Cereais",
+    "descricao": "Feijão carioca de alta qualidade.",
+    "imagem": "../../assets/images/produtos/feijao.jfif",
+    "preco": "8.90",
+    "promocao": false
+  },
+  {
+    "id": 15,
+    "nome": "Aveia em Flocos",
+    "marca": "Quaker",
+    "categoria": "Grãos e Cereais",
+    "descricao": "Aveia em flocos finos.",
+    "imagem": "../../assets/images/produtos/aveia.jfif",
+    "preco": "6.50",
+    "promocao": false
+  },
+  {
+    "id": 16,
+    "nome": "Quinoa em Grãos",
+    "marca": "Vitalin",
+    "categoria": "Grãos e Cereais",
+    "descricao": "Quinoa em grãos orgânica.",
+    "imagem": "../../assets/images/produtos/quinoa.jfif",
+    "preco": "12.90",
+    "promocao": false
+  },
+  {
+    "id": 17,
+    "nome": "Granola Tradicional",
+    "marca": "Nestlé",
+    "categoria": "Grãos e Cereais",
+    "descricao": "Granola com mel e passas.",
+    "imagem": "../../assets/images/produtos/granola.jfif",
+    "preco": "14.90",
+    "promocao": false
+  },
+  {
+    "id": 18,
+    "nome": "Farinha de Trigo",
+    "marca": "Dona Benta",
+    "categoria": "Grãos e Cereais",
+    "descricao": "Farinha de trigo enriquecida com ferro.",
+    "imagem": "../../assets/images/produtos/farinha.jfif",
+    "preco": "5.90",
+    "promocao": false
+  },
+  // Padaria
+  {
+    "id": 19,
+    "nome": "Pão Francês",
+    "marca": "N/A",
+    "categoria": "Padaria",
+    "descricao": "Pão francês fresco e crocante.",
+    "imagem": "../../assets/images/produtos/pao_frances.jfif",
+    "preco": "1.00",
+    "promocao": false
+  },
+  {
+    "id": 20,
+    "nome": "Pão Integral",
+    "marca": "Pullman",
+    "categoria": "Padaria",
+    "descricao": "Pão integral com grãos.",
+    "imagem": "../../assets/images/produtos/pao_integral.jfif",
+    "preco": "8.90",
+    "promocao": false
+  },
+  {
+    "id": 21,
+    "nome": "Croissant de Presunto e Queijo",
+    "marca": "N/A",
+    "categoria": "Padaria",
+    "descricao": "Croissant recheado com presunto e queijo.",
+    "imagem": "../../assets/images/produtos/croissant.jfif",
+    "preco": "4.50",
+    "promocao": false
+  },
+  {
+    "id": 22,
+    "nome": "Bolo de Cenoura",
+    "marca": "N/A",
+    "categoria": "Padaria",
+    "descricao": "Bolo de cenoura com cobertura de chocolate.",
+    "imagem": "../../assets/images/produtos/bolo_cenoura.jfif",
+    "preco": "15.90",
+    "promocao": false
+  },
+  {
+    "id": 23,
+    "nome": "Pão de Queijo",
+    "marca": "Forno de Minas",
+    "categoria": "Padaria",
+    "descricao": "Pão de queijo tradicional.",
+    "imagem": "../../assets/images/produtos/pao_queijo.jfif",
+    "preco": "19.90",
+    "promocao": false
+  },
+  {
+    "id": 24,
+    "nome": "Torta de Maçã",
+    "marca": "N/A",
+    "categoria": "Padaria",
+    "descricao": "Torta de maçã com massa folhada.",
+    "imagem": "../../assets/images/produtos/torta_maca.jfif",
+    "preco": "25.90",
+    "promocao": false
+  },
+  // Laticínios
+  {
+    "id": 25,
+    "nome": "Leite Integral",
+    "marca": "Itambé",
+    "categoria": "Laticinios",
+    "descricao": "Leite integral UHT.",
+    "imagem": "../../assets/images/produtos/leite_integral.jfif",
+    "preco": "4.90",
+    "promocao": false
+  },
+  {
+    "id": 26,
+    "nome": "Iogurte Natural",
+    "marca": "Danone",
+    "categoria": "Laticinios",
+    "descricao": "Iogurte natural integral.",
+    "imagem": "../../assets/images/produtos/iorgute.jfif",
+    "preco": "6.90",
+    "promocao": false
+  },
+  {
+    "id": 27,
+    "nome": "Manteiga com Sal",
+    "marca": "Aviação",
+    "categoria": "Laticinios",
+    "descricao": "Manteiga tradicional com sal.",
+    "imagem": "../../assets/images/produtos/manteiga.jfif",
+    "preco": "14.90",
+    "promocao": false
+  },
+  {
+    "id": 28,
+    "nome": "Creme de Leite",
+    "marca": "Nestlé",
+    "categoria": "Laticinios",
+    "descricao": "Creme de leite tradicional.",
+    "imagem": "../../assets/images/produtos/creme_leite.jfif",
+    "preco": "3.90",
+    "promocao": false
+  },
+  {
+    "id": 29,
+    "nome": "Requeijão Cremoso",
+    "marca": "Catupiry",
+    "categoria": "Laticinios",
+    "descricao": "Requeijão cremoso tradicional.",
+    "imagem": "../../assets/images/produtos/requeijao.jfif",
+    "preco": "8.90",
+    "promocao": false
+  },
+  {
+    "id": 30,
+    "nome": "Leite Condensado",
+    "marca": "Moça",
+    "categoria": "Laticinios",
+    "descricao": "Leite condensado tradicional.",
+    "imagem": "../../assets/images/produtos/leite_condencado.png",
+    "preco": "6.50",
+    "promocao": true
+  },
+  // Queijos e Processados
+  {
+    "id": 31,
+    "nome": "Queijo Mussarela",
+    "marca": "Itambé",
+    "categoria": "Queijos e Processados",
+    "descricao": "Queijo mussarela fatiado.",
+    "imagem": "../../assets/images/produtos/queijo_mussarela.jfif",
+    "preco": "28.90",
+    "promocao": false
+  },
+  {
+    "id": 32,
+    "nome": "Queijo Prato",
+    "marca": "Polenghi",
+    "categoria": "Queijos e Processados",
+    "descricao": "Queijo prato em fatias.",
+    "imagem": "../../assets/images/produtos/queijo_prato.jfif",
+    "preco": "27.90",
+    "promocao": false
+  },
+  {
+    "id": 33,
+    "nome": "Queijo Parmesão",
+    "marca": "Faixa Azul",
+    "categoria": "Queijos e Processados",
+    "descricao": "Queijo parmesão ralado.",
+    "imagem": "../../assets/images/produtos/queijo_parmesao.jfif",
+    "preco": "12.90",
+    "promocao": false
+  },
+  {
+    "id": 34,
+    "nome": "Queijo Brie",
+    "marca": "President",
+    "categoria": "Queijos e Processados",
+    "descricao": "Queijo brie cremoso.",
+    "imagem": "../../assets/images/produtos/queijo_brie.jfif",
+    "preco": "35.90",
+    "promocao": false
+  },
+  {
+    "id": 35,
+    "nome": "Presunto Cozido",
+    "marca": "Sadia",
+    "categoria": "Queijos e Processados",
+    "descricao": "Presunto cozido fatiado.",
+    "imagem": "../../assets/images/produtos/presunto.jfif",
+    "preco": "22.90",
+    "promocao": false
+  },
+  {
+    "id": 36,
+    "nome": "Mortadela Defumada",
+    "marca": "Perdigão",
+    "categoria": "Queijos e Processados",
+    "descricao": "Mortadela defumada em fatias.",
+    "imagem": "../../assets/images/produtos/mortadela.jfif",
+    "preco": "14.90",
+    "promocao": false
+  },
+  // Snacks
+  {
+    "id": 37,
+    "nome": "Batata Chips",
+    "marca": "Ruffles",
+    "categoria": "Snacks",
+    "descricao": "Batata chips sabor original.",
+    "imagem": "../../assets/images/produtos/batata_chips.jfif",
+    "preco": "8.90",
+    "promocao": false
+  },
+  {
+    "id": 38,
+    "nome": "Amendoim Torrado",
+    "marca": "Santa Helena",
+    "categoria": "Snacks",
+    "descricao": "Amendoim torrado sem casca.",
+    "imagem": "../../assets/images/produtos/amendoin.jfif",
+    "preco": "5.90",
+    "promocao": false
+  },
+  {
+    "id": 39,
+    "nome": "Biscoito Recheado",
+    "marca": "Oreo",
+    "categoria": "Snacks",
+    "descricao": "Biscoito recheado sabor chocolate.",
+    "imagem": "../../assets/images/produtos/biscoito_oreo.jfif",
+    "preco": "3.50",
+    "promocao": false
+  },
+  {
+    "id": 40,
+    "nome": "Barra de Cereal",
+    "marca": "Nutry",
+    "categoria": "Snacks",
+    "descricao": "Barra de cereal sabor castanha.",
+    "imagem": "../../assets/images/produtos/barra_cereal.jfif",
+    "preco": "2.90",
+    "promocao": false
+  },
+  {
+    "id": 41,
+    "nome": "Chocolate ao Leite",
+    "marca": "Nestlé",
+    "categoria": "Snacks",
+    "descricao": "Barra de chocolate ao leite.",
+    "imagem": "../../assets/images/produtos/chocolate.jfif",
+    "preco": "6.90",
+    "promocao": false
+  },
+  {
+    "id": 42,
+    "nome": "Pipoca de Micro-ondas",
+    "marca": "Yoki",
+    "categoria": "Snacks",
+    "descricao": "Pipoca de micro-ondas sabor manteiga.",
+    "imagem": "../../assets/images/produtos/pipoca.jfif",
+    "preco": "4.90",
+    "promocao": false
+  },
+  // Bebidas Alcoólicas
+  {
+    "id": 43,
+    "nome": "Cerveja Pilsen",
+    "marca": "Skol",
+    "categoria": "Bebidas Alcoólicas",
+    "descricao": "Cerveja pilsen lata 350ml.",
+    "imagem": "../../assets/images/produtos/cerveja_skol.jfif",
+    "preco": "3.50",
+    "promocao": false
+  },
+  {
+    "id": 44,
+    "nome": "Vinho Tinto Seco",
+    "marca": "Miolo",
+    "categoria": "Bebidas Alcoólicas",
+    "descricao": "Vinho tinto seco 750ml.",
+    "imagem": "../../assets/images/produtos/vinho.jfif",
+    "preco": "49.90",
+    "promocao": false
+  },
+  {
+    "id": 45,
+    "nome": "Vodka",
+    "marca": "Smirnoff",
+    "categoria": "Bebidas Alcoólicas",
+    "descricao": "Vodka destilada 1L.",
+    "imagem": "../../assets/images/produtos/vodka.jfif",
+    "preco": "39.90",
+    "promocao": false
+  },
+  {
+    "id": 46,
+    "nome": "Whisky",
+    "marca": "Johnnie Walker Red Label",
+    "categoria": "Bebidas Alcoólicas",
+    "descricao": "Whisky escocês 1L.",
+    "imagem": "../../assets/images/produtos/whisky.jfif",
+    "preco": "99.90",
+    "promocao": false
+  },
+  {
+    "id": 47,
+    "nome": "Espumante Brut",
+    "marca": "Chandon",
+    "categoria": "Bebidas Alcoólicas",
+    "descricao": "Espumante brut 750ml.",
+    "imagem": "../../assets/images/produtos/espumante.jfif",
+    "preco": "79.90",
+    "promocao": false
+  },
+  {
+    "id": 48,
+    "nome": "Cachaça",
+    "marca": "51",
+    "categoria": "Bebidas Alcoólicas",
+    "descricao": "Cachaça tradicional 1L.",
+    "imagem": "../../assets/images/produtos/cachaca.jfif",
+    "preco": "18.90",
+    "promocao": false
+  },
+  // Bebidas Não Alcoólicas
+  {
+    "id": 49,
+    "nome": "Refrigerante Cola",
+    "marca": "Coca-Cola",
+    "categoria": "Bebidas Não Alcoólicas",
+    "descricao": "Refrigerante de cola 2L.",
+    "imagem": "../../assets/images/produtos/coca_cola.jfif",
+    "preco": "8.90",
+    "promocao": false
+  },
+  {
+    "id": 50,
+    "nome": "Suco de Laranja",
+    "marca": "Del Valle",
+    "categoria": "Bebidas Não Alcoólicas",
+    "descricao": "Suco de laranja integral 1L.",
+    "imagem": "../../assets/images/produtos/suco_laranja.jfif",
+    "preco": "6.90",
+    "promocao": false
+  },
+  {
+    "id": 51,
+    "nome": "Água Mineral",
+    "marca": "Bonafont",
+    "categoria": "Bebidas Não Alcoólicas",
+    "descricao": "Água mineral sem gás 500ml.",
+    "imagem": "../../assets/images/produtos/agua_mineral.jfif",
+    "preco": "2.50",
+    "promocao": false
+  },
+  {
+    "id": 52,
+    "nome": "Chá Gelado",
+    "marca": "Lipton",
+    "categoria": "Bebidas Não Alcoólicas",
+    "descricao": "Chá gelado sabor limão 1.5L.",
+    "imagem": "../../assets/images/produtos/cha_gelado.jfif",
+    "preco": "7.90",
+    "promocao": false
+  },
+  {
+    "id": 53,
+    "nome": "Isotônico",
+    "marca": "Gatorade",
+    "categoria": "Bebidas Não Alcoólicas",
+    "descricao": "Isotônico sabor tangerina 500ml.",
+    "imagem": "../../assets/images/produtos/isotonico.jfif",
+    "preco": "5.90",
+    "promocao": false
+  },
+  {
+    "id": 54,
+    "nome": "Água de Coco",
+    "marca": "Kero Coco",
+    "categoria": "Bebidas Não Alcoólicas",
+    "descricao": "Água de coco 1L.",
+    "imagem": "../../assets/images/produtos/agua_coco.jfif",
+    "preco": "9.90",
+    "promocao": false
+  },
+  // Higiene
+  {
+    "id": 55,
+    "nome": "Sabonete",
+    "marca": "Dove",
+    "categoria": "Higiene",
+    "descricao": "Sabonete hidratante unitário.",
+    "imagem": "../../assets/images/produtos/sabonete.jfif",
+    "preco": "3.50",
+    "promocao": false
+  },
+  {
+    "id": 56,
+    "nome": "Shampoo",
+    "marca": "Pantene",
+    "categoria": "Higiene",
+    "descricao": "Shampoo para cabelos normais 400ml.",
+    "imagem": "../../assets/images/produtos/shampoo.jfif",
+    "preco": "18.90",
+    "promocao": false
+  },
+  {
+    "id": 57,
+    "nome": "Creme Dental",
+    "marca": "Colgate",
+    "categoria": "Higiene",
+    "descricao": "Creme dental com flúor 90g.",
+    "imagem": "../../assets/images/produtos/creme_dental.jfif",
+    "preco": "4.50",
+    "promocao": false
+  },
+  {
+    "id": 58,
+    "nome": "Desodorante Aerosol",
+    "marca": "Rexona",
+    "categoria": "Higiene",
+    "descricao": "Desodorante aerosol masculino 150ml.",
+    "imagem": "../../assets/images/produtos/desodorante.jfif",
+    "preco": "12.90",
+    "promocao": true
+  },
+  {
+    "id": 59,
+    "nome": "Lâminas de Barbear",
+    "marca": "Gillette",
+    "categoria": "Higiene",
+    "descricao": "Cartucho com 4 lâminas de barbear.",
+    "imagem": "../../assets/images/produtos/laminas.jfif",
+    "preco": "39.90",
+    "promocao": false
+  },
+  {
+    "id": 60,
+    "nome": "Papel Higiênico",
+    "marca": "Neve",
+    "categoria": "Higiene",
+    "descricao": "Pacote com 12 rolos.",
+    "imagem": "../../assets/images/produtos/papel_higienico.jfif",
+    "preco": "25.90",
+    "promocao": false
+  },
+  // Limpeza
+  {
+    "id": 61,
+    "nome": "Detergente Líquido",
+    "marca": "Ypê",
+    "categoria": "Limpeza",
+    "descricao": "Detergente líquido neutro 500ml.",
+    "imagem": "../../assets/images/produtos/detergente.jfif",
+    "preco": "2.50",
+    "promocao": false
+  },
+  {
+    "id": 62,
+    "nome": "Sabão em Pó",
+    "marca": "OMO",
+    "categoria": "Limpeza",
+    "descricao": "Sabão em pó para roupas 1kg.",
+    "imagem": "../../assets/images/produtos/sabao_po.jfif",
+    "preco": "10.90",
+    "promocao": false
+  },
+  {
+    "id": 63,
+    "nome": "Água Sanitária",
+    "marca": "Candura",
+    "categoria": "Limpeza",
+    "descricao": "Água sanitária 2L.",
+    "imagem": "../../assets/images/produtos/agua_sanitaria.jfif",
+    "preco": "6.90",
+    "promocao": false
+  },
+  {
+    "id": 64,
+    "nome": "Esponja de Limpeza",
+    "marca": "Scotch-Brite",
+    "categoria": "Limpeza",
+    "descricao": "Esponja dupla-face.",
+    "imagem": "../../assets/images/produtos/esponja.jfif",
+    "preco": "3.50",
+    "promocao": false
+  },
+  {
+    "id": 65,
+    "nome": "Multiuso",
+    "marca": "Veja",
+    "categoria": "Limpeza",
+    "descricao": "Limpador multiuso 500ml.",
+    "imagem": "../../assets/images/produtos/multiuso.jfif",
+    "preco": "8.90",
+    "promocao": false
+  },
+  {
+    "id": 66,
+    "nome": "Lustra-Móveis",
+    "marca": "Poliflor",
+    "categoria": "Limpeza",
+    "descricao": "Lustra-móveis 200ml.",
+    "imagem": "../../assets/images/produtos/lustra_moveis.jfif",
+    "preco": "9.90",
+    "promocao": false
+  },
+  // Produtos Pet
+  {
+    "id": 67,
+    "nome": "Ração para Cães",
+    "marca": "Pedigree",
+    "categoria": "Produtos Pet",
+    "descricao": "Ração seca para cães adultos 10kg.",
+    "imagem": "../../assets/images/produtos/racao_cao.jfif",
+    "preco": "89.90",
+    "promocao": false
+  },
+  {
+    "id": 68,
+    "nome": "Areia para Gatos",
+    "marca": "PipiCat",
+    "categoria": "Produtos Pet",
+    "descricao": "Areia higiênica para gatos 4kg.",
+    "imagem": "../../assets/images/produtos/areia_gato.jfif",
+    "preco": "19.90",
+    "promocao": false
+  },
+  {
+    "id": 69,
+    "nome": "Shampoo para Pets",
+    "marca": "Sanol Dog",
+    "categoria": "Produtos Pet",
+    "descricao": "Shampoo neutro para cães e gatos 500ml.",
+    "imagem": "../../assets/images/produtos/shampoo_pet.jfif",
+    "preco": "14.90",
+    "promocao": false
+  },
+  {
+    "id": 70,
+    "nome": "Biscoito para Cães",
+    "marca": "Dog Chow",
+    "categoria": "Produtos Pet",
+    "descricao": "Biscoito saudável para cães 500g.",
+    "imagem": "../../assets/images/produtos/biscoito_cao.jfif",
+    "preco": "12.90",
+    "promocao": false
+  },
+  {
+    "id": 71,
+    "nome": "Coleira",
+    "marca": "Chalesco",
+    "categoria": "Produtos Pet",
+    "descricao": "Coleira ajustável para cães de médio porte.",
+    "imagem": "../../assets/images/produtos/coleira.jfif",
+    "preco": "25.90",
+    "promocao": false
+  },
+  {
+    "id": 72,
+    "nome": "Antipulgas",
+    "marca": "Frontline",
+    "categoria": "Produtos Pet",
+    "descricao": "Antipulgas para cães até 10kg.",
+    "imagem": "../../assets/images/produtos/antipulgas.jfif",
+    "preco": "49.90",
+    "promocao": false
+  }

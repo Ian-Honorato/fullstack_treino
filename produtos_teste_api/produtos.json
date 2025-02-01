@@ -1,0 +1,86 @@
+[
+  {
+    "nome": "Picanha Bovino",
+    "marca": "Friboi",
+    "categoria": "Açougue",
+    "descricao": "Corte especial de picanha bovina.",
+    "valor": "89.90"
+  },
+  {
+    "nome": "Costela Suína",
+    "marca": "Seara",
+    "categoria": "Açougue",
+    "descricao": "Costela suína temperada.",
+    "valor": "42.50"
+  },
+  {
+    "nome": "Cenoura",
+    "marca": "N/A",
+    "categoria": "Hort-fruit",
+    "descricao": "Cenoura fresca orgânica.",
+    "valor": "4.30"
+  },
+  {
+    "nome": "Batata Inglesa",
+    "marca": "N/A",
+    "categoria": "Hort-fruit",
+    "descricao": "Batata inglesa fresca.",
+    "valor": "3.90"
+  },
+  {
+    "nome": "Arroz Branco",
+    "marca": "Tio João",
+    "categoria": "Grãos e Cereais",
+    "descricao": "Arroz branco tipo 1.",
+    "valor": "25.90"
+  },
+  {
+    "nome": "Feijão Carioca",
+    "marca": "Camil",
+    "categoria": "Grãos e Cereais",
+    "descricao": "Feijão carioca de alta qualidade.",
+    "valor": "8.90"
+  },
+  {
+    "nome": "Pão Francês",
+    "marca": "N/A",
+    "categoria": "Padaria",
+    "descricao": "Pão francês fresco e crocante.",
+    "valor": "1.00"
+  },
+  {
+    "nome": "Pão Integral",
+    "marca": "Pullman",
+    "categoria": "Padaria",
+    "descricao": "Pão integral com grãos.",
+    "valor": "8.90"
+  },
+  {
+    "nome": "Requeijão Cremoso",
+    "marca": "Catupiry",
+    "categoria": "Laticínios",
+    "descricao": "Requeijão cremoso tradicional.",
+    "valor": "8.90"
+  },
+  {
+    "nome": "Leite Condensado",
+    "marca": "Moça",
+    "categoria": "Laticínios",
+    "descricao": "Leite condensado tradicional.",
+    "valor": "6.50"
+  },
+  {
+    "nome": "Batata Chips",
+    "marca": "Ruffles",
+    "categoria": "Snacks",
+    "descricao": "Batata chips sabor original.",
+    "valor": "8.90"
+  },
+  {
+    "nome": "Amendoim Torrado",
+    "marca": "Santa Helena",
+    "categoria": "Snacks",
+    "descricao": "Amendoim torrado sem casca.",
+    "valor": "5.90"
+  }
+]

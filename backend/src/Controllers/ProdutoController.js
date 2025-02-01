@@ -1,5 +1,6 @@
 import homeRoutes from "../routes/homeRoutes";
 import Produto from "../Models/Produto";
+import Image from "../Models/Image";
 
 class ProdutoController {
   constructor() {}
@@ -8,6 +9,10 @@ class ProdutoController {
       const produtos = await Produto.findAll({
         attributes: ["id", "nome", "marca", "categoria", "descricao", "valor"],
         order: [["id", "DESC"]],
+        include: {
+          model: Image,
+          attributes: ["id", "filename", "flag", "url"],
+        },
       });
       res.json(produtos);
     } catch (e) {

@@ -32,6 +32,15 @@ export default class Image extends Model {
           allowNull: false,
           defaultValue: "false",
         },
+        id_produto: {
+          type: Sequelize.INTEGER,
+          allowNull: false,
+          references: {
+            model: "produtos", // Nome exato da tabela no BD
+            key: "id",
+          },
+        },
+
         url: {
           type: Sequelize.VIRTUAL,
           get() {
@@ -41,12 +50,12 @@ export default class Image extends Model {
       },
       {
         sequelize,
-        tableName: 'images'
+        tableName: "images",
       }
     );
     return this;
   }
-  static associate(models) {
-    this.belongsTo(models.Produto, { foreignKey: "id_produto" });
+  static associations(models) {
+    this.belongsToMany(models.Produto, { foreignKey: "id_produto" });
   }
 }
