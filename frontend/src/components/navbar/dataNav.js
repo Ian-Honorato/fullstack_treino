@@ -11,11 +11,6 @@ export const NavBarMenu = [
   },
   {
     id: 3,
-    title: "Endereço",
-    link: "#",
-  },
-  {
-    id: 4,
     title: "Cadastro",
     link: "/contato",
   },

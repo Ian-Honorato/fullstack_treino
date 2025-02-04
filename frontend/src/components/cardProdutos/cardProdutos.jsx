@@ -11,7 +11,7 @@ const CardProdutos = ({ produtos, onNavigate }) => {
       key={produtos.id}
       className="relative overflow-hidden bg-white border border-gray-200 rounded-xl"
     >
-      <div className="relative w-[300px] m-5">
+      <div className="relative w-[260px] m-5">
         <div className="absolute top-2 right-3">
           <a href="#" className="text-decoration-none">
             <CiHeart className="size-6 hover:text-red-500" />
@@ -32,9 +32,7 @@ const CardProdutos = ({ produtos, onNavigate }) => {
           )}
         </div>
         <div className="w-full px-2 py-4">
-          <p className="text-[12px] uppercase text-orange-500">
-            {produtos.marca}
-          </p>
+          <p className="text-[12px] uppercase text-primary">{produtos.marca}</p>
           <h3 className="py-2">{produtos.nome}</h3>
           <p className="py-2">R$ {produtos.valor}</p>
         </div>
