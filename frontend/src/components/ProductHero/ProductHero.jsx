@@ -30,14 +30,6 @@ const ProductHero = ({ produto }) => {
             <span className="font-bold text-lg text-primary px-2">Preço:</span>
             <span className="text-gray-500 font-semibold">{produto.valor}</span>
           </div>
-          <div className="flex flex-row justify-center align-center">
-            <button className=" px-4 py-1 text-center font-bold text-gray-600 mx-3 hover:text-primary ">
-              Alterar Produto
-            </button>
-            <button className=" px-4 py-1 text-center font-bold text-gray-600 mx-3 hover:text-primary ">
-              Deletar Produto
-            </button>
-          </div>
         </div>
       </div>
     </div>
