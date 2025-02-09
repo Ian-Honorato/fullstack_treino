@@ -1,10 +1,10 @@
-# FullStack Treino
+ ## 🚀 Fullstack Treino 
 
 Este é um projeto full stack desenvolvido com **Node.js, Express, Sequelize, MySQL** no backend e **React, Vite, TailwindCSS** no frontend.
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto 
 
-### Backend
+### 🖥️ Backend 
 - **Tecnologias:** Node.js, Express, Sequelize, MySQL
 - **Diretórios:**
   - `config/` - Configurações gerais do projeto (multer, database, url)
@@ -19,7 +19,7 @@ Este é um projeto full stack desenvolvido com **Node.js, Express, Sequelize, My
 **Arquivos Importantes**
    - `app.js` -  ponto inicial da aplicação - centraliza a logica principal do servidor
    - `server.js` - configuração da porta do servidor
-### Frontend
+### 🎨 Frontend 
 - **Tecnologias:** React, Vite, TailwindCSS
 - **Diretórios:**
   - `assets/` - Recursos estáticos
@@ -28,9 +28,9 @@ Este é um projeto full stack desenvolvido com **Node.js, Express, Sequelize, My
   - `Provider/` - Context API e gerenciamento de estado
   - `service/` - Serviços de comunicação com a API
 
-## Configuração do Ambiente
+## 🛠️ Configuração do Ambiente 
 
-### Backend
+ ### 1️⃣ Backend 
 1. Instale as dependências:
    ```sh
    cd backend
@@ -53,8 +53,8 @@ Este é um projeto full stack desenvolvido com **Node.js, Express, Sequelize, My
    ```sh
    npm start
    ```
-
-### Frontend
+📍 O backend será iniciado em http://localhost:3000.
+ ### 2️⃣ Frontend
 1. Instale as dependências:
    ```sh
    cd frontend
@@ -64,8 +64,9 @@ Este é um projeto full stack desenvolvido com **Node.js, Express, Sequelize, My
    ```sh
    npm run dev
    ```
+📍 O frontend será iniciado em http://localhost:5173.
 
-## Rotas da API
+## 📌 Rotas da API
 ### Exemplo de Rotas (Backend)
 - **Autenticação:**
   - `POST /login` - Autentica um usuário
@@ -81,7 +82,7 @@ Este é um projeto full stack desenvolvido com **Node.js, Express, Sequelize, My
   - `GET /usuarios/:id` - retorna um usuário
   - `PUT /usuario/:id` - Altera um usuário
 
-## Tecnologias Utilizadas
+## 🔧 Tecnologias Utilizadas
 ### Backend
 - Node.js
 - Express
@@ -97,15 +98,16 @@ Este é um projeto full stack desenvolvido com **Node.js, Express, Sequelize, My
 - React Router Dom
 - Axios
 
-## Melhorias Futuras
+## 📝 Melhorias Futuras
 -    **Backend:**
       - Implementar novas funcionalidades - Ex: controle de estoque, carrinho de compras
-      - Implementar relacionamento entre User - Produtos para um maior controle e adequação ao banco relacional 
+      - Estruturação do banco de dados: Relacionamentos entre usuários e produtos, garantindo integridade dos dados.
+      - 
 -    **Frontend:** 
       - Implementar controle de estoque
       - Criar um exemplo de carrinho de compras
 
-## Objetivos do Projeto
+## 🌟 Objetivos do Projeto
 O principal objetivo deste projeto é desenvolver uma aplicação full stack completa, integrando um backend robusto com um frontend dinâmico e responsivo. 
 
    O projeto visa:
@@ -115,7 +117,7 @@ O principal objetivo deste projeto é desenvolver uma aplicação full stack com
    - Implementar um frontend moderno utilizando React e TailwindCSS.
    - Aprimorar conhecimentos em autenticação, manipulação de banco de dados e boas práticas no desenvolvimento web.
 
-## Desafios do Projeto
+## 🎯 Desafios do Projeto
 Durante o desenvolvimento, alguns desafios foram enfrentados, como: 
 
    O projeto visa:
@@ -123,9 +125,9 @@ Durante o desenvolvimento, alguns desafios foram enfrentados, como:
    - Autenticação de usuários: Implementação segura de tokens JWT e proteção de rotas.
    - Upload de arquivos: Configuração do Multer para armazenar imagens de produtos corretamente.
    - Integração frontend-backend: Garantir comunicação eficiente entre React e Node.js com CORS e requisições assíncronas.
-   - Estruturação do banco de dados: Relacionamentos entre usuários e produtos, garantindo integridade dos dados.
+     
 
-## Contribuição
+## 📝 Contribuição
 Se quiser contribuir, sinta-se à vontade, seria um prazer aprendermos juntos.
 
 
